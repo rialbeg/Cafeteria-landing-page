@@ -1,0 +1,107 @@
+/************** GLOBAL ****************/
+
+a{
+    color:black;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    max-width: 1440px;
+}
+/************** MENU ****************/
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+ul.menu{
+    display: flex;
+    align-items: center;
+    font-size:1.6rem;
+}
+
+ul.menu li a{
+    margin-right: 45px;
+    font-weight: 400;
+}
+
+
+/************** HOME ****************/
+
+section.home-page{
+    background: url(../images/home-bg.png) center center no-repeat;
+    background-size:cover;
+    height: 628px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2.home-title{
+    color: white;
+    font-weight: 400;
+    font-size:6rem;
+}
+
+
+/************** QUEM SOMOS ****************/
+
+img.planta{
+    width:17rem;
+    margin-bottom: 70px;
+}
+div.quem-somos-conteudo{
+    margin:153px 362px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* max-width: 400px; */
+    clear: both;
+}
+
+
+
+div.quem-somos-conteudo h2{
+    font-weight: 600;
+    font-size:4.5rem;
+    margin-bottom: 40px;
+}
+div.quem-somos-conteudo p{
+    font-weight: 300;
+    font-size:1.8rem;
+    text-align: justify;
+}
+
+/************** LADRILHO ****************/
+
+section.ladrilho div{
+    float: left;
+}
+
+
+
+.grande{
+    background: url('../images/4.jpg') center center no-repeat;
+    height:600px;
+    width:50%;
+}
+
+.pequeno{
+    background: url('../images/2.jpg') center center no-repeat;
+    height:300px;
+    width: 25%;
+}
+.pequeno.grao{
+    background: url('../images/3.jpg') center center no-repeat;
+    
+}
+.medio{
+    background: url('../images/1.jpg') center center no-repeat;
+    height:300px;
+    width: 50%;
+}
+
+
